@@ -2,7 +2,7 @@ all: tcpconn
 
 uninstall: remove
 
-tcpping: tcpconn.c
+tcpconn: tcpconn.c
 	$(CC) -Wall -g tcpconn.c -o tcpconn $(CFLAGS)
 
 install:
